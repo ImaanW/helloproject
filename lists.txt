@@ -1,0 +1,32 @@
+# Looping over lists
+
+# looping over two lists - ZIP FUNCTIONS
+# For name, hero in zip(names, heroes):
+#    print(f'{name} is actually {hero}
+
+# this shows looping over two lists, using zip function, will only loop until shorted list ends - can do more than 2
+# for name, hero in the lists names and heroes, print name and hero values from list togther in formatted string
+
+# for value in zip(names,heroes,universes):
+# Print(value)
+# this will acess all the values/ single tuple, all first values, the all second, then all third
+
+#different ways to UNPACK VALUES in a list
+
+# a , b = (1, 2)
+#print(a)
+#print(b)
+
+# # a , b , *c = (1, 2, 3,4,5,6)
+# #print(a)
+#Print(b)
+#Print(c) - c will be equal to everything else
+# an understore in a place of a variable name/letter will comment it out and not output/igorne it
+
+# # a , b ,*c , d = (1, 2, 3,4,5,6,7, 8 )
+# #print(a)
+#Print(b)
+#Print(c)
+#print(d)
+# this will return c as all the values just before the first one and to ignore put _
+
